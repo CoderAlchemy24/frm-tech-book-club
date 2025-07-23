@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CoderAlchemy24/frm-tech-book-club.git](https://github.com/CoderAlchemy24/frm-tech-book-club.git)
+- Live Site URL: [https://fabulous-chimera-bef83d.netlify.app/](https://fabulous-chimera-bef83d.netlify.app/)
 
 ## My process
 
@@ -46,6 +46,6 @@ Users should be able to:
 
 ### Author
 
-- Author - [coderalchemy24]()
+- Author - [coderalchemy24](https://github.com/CoderAlchemy24)
 
 
