@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tech book club</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="section1">
+        <img class="section1__logo" src="./assets/images/logo.svg" alt="logo" />
+        <div class="section1__content">
+          <h1 class="section1__title">Join the ultimate tech book club</h1>
+          <p>
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussions,
+            and level up your skills one chapter at a time.
+          </p>
+          <button type="button" class="section1__button">
+            Review membership options
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              fill="none"
+              viewBox="0 0 24 25"
+            >
+              <path
+                fill="#062630"
+                d="m3.96 14.956.72-3.12c1.224.12 2.328.504 3.264 1.2.936.696 1.584 1.512 1.896 2.496V3.676h2.76v11.856c.672-1.944 2.688-3.48 5.16-3.696l.72 3.12c-3.384.12-5.52 2.112-5.88 5.544H9.84c-.36-3.456-2.496-5.424-5.88-5.544Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="section1__rating-content">
+          <img
+            class="avatars"
+            src="./assets/images/image-avatars.webp"
+            alt="avatars"
+          />
+          <div class="section1__rating-right">
+            <div class="section1__stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+            </div>
+            <p>200+ developers joined already</p>
+          </div>
+        </div>
+        <img
+          class="section1__hero-img"
+          src="./assets/images/image-hero-mobile.webp"
+          alt="people-in-the-library"
+        />
+      </section>
+      <section class="section2">
+        <h2 class="section2__title">Read together, grow together</h2>
+        <ul class="section2__list">
+          <li class="section2__list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="none"
+              viewBox="0 0 28 28"
+            >
+              <rect
+                width="26"
+                height="26"
+                x="1"
+                y="1"
+                stroke="#385159"
+                stroke-width="2"
+                rx="3"
+              />
+              <path
+                fill="#385159"
+                d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+              />
+            </svg>
+            Monthly curated tech reads selected by industry experts
+          </li>
+          <li class="section2__list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="none"
+              viewBox="0 0 28 28"
+            >
+              <rect
+                width="26"
+                height="26"
+                x="1"
+                y="1"
+                stroke="#385159"
+                stroke-width="2"
+                rx="3"
+              />
+              <path
+                fill="#385159"
+                d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+              />
+            </svg>
+            Virtual and in-person meetups for deep-dive discussions
+          </li>
+          <li class="section2__list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="none"
+              viewBox="0 0 28 28"
+            >
+              <rect
+                width="26"
+                height="26"
+                x="1"
+                y="1"
+                stroke="#385159"
+                stroke-width="2"
+                rx="3"
+              />
+              <path
+                fill="#385159"
+                d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+              />
+            </svg>
+            Early access to new tech book releases
+          </li>
+          <li class="section2__list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="none"
+              viewBox="0 0 28 28"
+            >
+              <rect
+                width="26"
+                height="26"
+                x="1"
+                y="1"
+                stroke="#385159"
+                stroke-width="2"
+                rx="3"
+              />
+              <path
+                fill="#385159"
+                d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+              />
+            </svg>
+            Author Q&A sessions with tech thought leaders
+          </li>
+        </ul>
+        <img
+          class="section2__img"
+          src="./assets/images/image-read-together-desktop.webp"
+          alt="people-with-books"
+        />
+      </section>
+      <section class="section3">
+        <h2 class="section3__title">
+          Not your average book <span class="club-circle">club</span>
+        </h2>
+        <p class="section3__p">
+          Connect with a community that speaks your language - from
+          <b>Python</b> to <b>TypeScript</b> and everything in between. Our
+          discussions blend technical depth with practical applications.
+        </p>
+        <img
+          class="section3__img"
+          src="./assets/images/image-not-average-desktop.webp"
+          alt="not-average-people-image"
+        />
+      </section>
+      <section class="section4">
+        <h2 class="section4__title">Your tech reading journey</h2>
+        <ul class="section4__list">
+          <li class="section4__list-item">
+            <div class="section4__list-item-row1">
+              <p>1</p>
+              <svg
+                class="section4__list-item-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="33"
+                fill="none"
+                viewBox="0 0 80 33"
+              >
+                <g
+                  stroke="#FEA36F"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="1.553"
+                  clip-path="url(#a)"
+                >
+                  <path
+                    d="M2.545 21.82c10.136-6.576 37.73-17.132 67.013-6.751"
+                  />
+                  <path
+                    d="M66.105 21.638a56.898 56.898 0 0 1 6.17-1.052c.488-.058 5.67-.495 5.561-.808-.519-1.498-1.718-2.888-2.495-4.266-1.59-2.817-2.982-5.61-3.806-8.737-.412-1.565-.652-3.15-.995-4.713"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path
+                      fill="#fff"
+                      d="M0 12 75.854.39l3.222 20.257-75.854 11.61z"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="section4__list-item-p">Choose your membership tier</p>
+          </li>
+          <li class="section4__list-item">
+            <div class="section4__list-item-row1">
+              <p>2</p>
+              <svg
+                class="section4__list-item-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="33"
+                fill="none"
+                viewBox="0 0 80 33"
+              >
+                <g
+                  stroke="#FEA36F"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="1.553"
+                  clip-path="url(#a)"
+                >
+                  <path
+                    d="M2.545 21.82c10.136-6.576 37.73-17.132 67.013-6.751"
+                  />
+                  <path
+                    d="M66.105 21.638a56.898 56.898 0 0 1 6.17-1.052c.488-.058 5.67-.495 5.561-.808-.519-1.498-1.718-2.888-2.495-4.266-1.59-2.817-2.982-5.61-3.806-8.737-.412-1.565-.652-3.15-.995-4.713"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path
+                      fill="#fff"
+                      d="M0 12 75.854.39l3.222 20.257-75.854 11.61z"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="section4__list-item-p">Get your monthly book selection</p>
+          </li>
+          <li class="section4__list-item">
+            <div class="section4__list-item-row1">
+              <p>3</p>
+              <svg
+                class="section4__list-item-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="33"
+                fill="none"
+                viewBox="0 0 80 33"
+              >
+                <g
+                  stroke="#FEA36F"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="1.553"
+                  clip-path="url(#a)"
+                >
+                  <path
+                    d="M2.545 21.82c10.136-6.576 37.73-17.132 67.013-6.751"
+                  />
+                  <path
+                    d="M66.105 21.638a56.898 56.898 0 0 1 6.17-1.052c.488-.058 5.67-.495 5.561-.808-.519-1.498-1.718-2.888-2.495-4.266-1.59-2.817-2.982-5.61-3.806-8.737-.412-1.565-.652-3.15-.995-4.713"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path
+                      fill="#fff"
+                      d="M0 12 75.854.39l3.222 20.257-75.854 11.61z"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="section4__list-item-p">Join our discussion forums</p>
+          </li>
+          <li class="section4__list-item">
+            <div class="section4__list-item-row1">
+              <p>4</p>
+            </div>
+            <p class="section4__list-item-p">Attend exclusive meetups</p>
+          </li>
+        </ul>
+        <div class="section4__layer"></div>
+      </section>
+      <section class="section5">
+        <h2 class="section5__title">Membership options</h2>
+        <div class="section5__cards">
+          <div class="section5__membership-card">
+            <h3>Starter</h3>
+            <h4>$19<span class="price-span">/month</span></h4>
+            <ul class="section5__card-list">
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>1 book/month</p>
+              </li>
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>Online forums</p>
+              </li>
+            </ul>
+
+            <button class="section5__cta-btn" type="button">
+              Subscribe now
+            </button>
+          </div>
+          <div class="section5__membership-card">
+            <h3>Pro</h3>
+            <h4>$29<span class="price-span">/month</span></h4>
+            <ul class="section5__card-list">
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>2 book/month</p>
+              </li>
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>Virtual meetups</p>
+              </li>
+            </ul>
+            <button class="section5__cta-btn" type="button">
+              Subscribe now
+            </button>
+          </div>
+          <div class="section5__membership-card">
+            <h3>Enterprise</h3>
+            <h4>Custom</h4>
+            <ul class="section5__card-list">
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>Team access</p>
+              </li>
+              <li class="section5__card-list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                >
+                  <rect
+                    width="26"
+                    height="26"
+                    x="1"
+                    y="1"
+                    stroke="#385159"
+                    stroke-width="2"
+                    rx="3"
+                  />
+                  <path
+                    fill="#385159"
+                    d="m19.06 6.8 1.3 2.2c-2.26 1.06-3.92 2.54-4.96 4.46-1.02 1.9-1.56 4.42-1.6 7.54h-2.6c-.3-2.62-1.7-4.56-4.4-5.28l.92-2.44c1.04.32 1.96.88 2.76 1.7.82.82 1.36 1.74 1.64 2.78.46-4.86 2.8-8.64 6.94-10.96Z"
+                  />
+                </svg>
+                <p>Private sessions</p>
+              </li>
+            </ul>
+            <button class="section5__cta-btn" type="button">Talk to us</button>
+          </div>
+        </div>
+      </section>
+      <section class="section6">
+        <div class="section6__stars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#FF9A60"
+              d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+              opacity=".9"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#FF9A60"
+              d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+              opacity=".9"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#FF9A60"
+              d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+              opacity=".9"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#FF9A60"
+              d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+              opacity=".9"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#FF9A60"
+              d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+              opacity=".9"
+            />
+          </svg>
+        </div>
+        <h3 class="section6__text">
+          "This book club transformed my technical reading from a solitary
+          activity into an enriching community experience. The discussions are
+          gold!"
+        </h3>
+        <p class="section6__p">Sarah Chen, Software Architect</p>
+      </section>
+      <section class="section7">
+        <h2 class="section7__title">Ready to debug your reading list?</h2>
+        <button class="section7__cta-btn" type="button">
+          Review membership options
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 25"
+          >
+            <path
+              fill="#fff"
+              d="m3.96 8.742.72 3.12c1.224-.12 2.328-.504 3.264-1.2.936-.696 1.584-1.512 1.896-2.496v11.856h2.76V8.166c.672 1.944 2.688 3.48 5.16 3.696l.72-3.12c-3.384-.12-5.52-2.112-5.88-5.544H9.84c-.36 3.456-2.496 5.424-5.88 5.544Z"
+            />
+          </svg>
+        </button>
+        <div class="section7__content">
+          <img
+            class="avatars"
+            src="./assets/images/image-avatars.webp"
+            alt="avatars"
+          />
+          <div class="section7__right">
+            <div class="section7__stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                fill="none"
+                viewBox="0 0 24 25"
+              >
+                <path
+                  fill="#FF9A60"
+                  d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z"
+                  opacity=".9"
+                />
+              </svg>
+            </div>
+            <p>200+ developers joined already</p>
+          </div>
+        </div>
+        <hr class="section7__hr" />
+        <footer class="section7__footer">
+          <p>© 2024 - Tech Book Club</p>
+          <div class="section7__social-icons">
+            <img src="assets/images/logo-bluesky.svg" alt="bluesky-icon" />
+
+            <img src="assets/images/logo-linkedin.svg" alt="linkedin-icon" />
+          </div>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

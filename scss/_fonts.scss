@@ -1,0 +1,43 @@
+@use "mixins" as m;
+
+$base-font-size: 16px;
+$font-size: m.px-to-rem($base-font-size);
+
+$font-preset-1: "Martian Mono", sans-serif;
+$font-preset-1-mobile: "Martian Mono", sans-serif;
+$font-preset-2: "Martian Mono", sans-serif;
+$font-preset-2-mobile: "Martian Mono", sans-serif;
+$font-preset-3: "Martian Mono", sans-serif;
+$font-preset-3-mobile: "Martian Mono", sans-serif;
+$font-preset-4: "Martian Mono", sans-serif;
+$font-preset-4-regular: "Martian Mono", sans-serif;
+$font-preset-5: "Inter", sans-serif;
+$font-preset-5-semibold: "Inter", sans-serif;
+$font-preset-6: "Martian Mono", sans-serif;
+$font-preset-6-mobile: "Martian Mono", sans-serif;
+$font-preset-7: "Martian Mono", sans-serif;
+
+// Font sizes
+$font-size-1: m.px-to-rem(62px);
+$font-size-1-mobile: m.px-to-rem(38px);
+$font-size-2: m.px-to-rem(50px);
+$font-size-2-mobile: m.px-to-rem(34px);
+$font-size-3: m.px-to-rem(34px);
+$font-size-3-mobile: m.px-to-rem(24px);
+$font-size-4: m.px-to-rem(24px);
+$font-size-4-regular: m.px-to-rem(24px);
+$font-size-5: m.px-to-rem(20px);
+$font-size-5-semibold: m.px-to-rem(20px);
+$font-size-6: m.px-to-rem(18px);
+$font-size-6-mobile: m.px-to-rem(16px);
+$font-size-7: m.px-to-rem(14px);
+// Line heights
+$lh-130: 130%;
+$lh-110: 110%;
+$lh-140: 140%;
+$lh-120: 120%;
+
+// Letter spacing
+$ls-2: m.px-to-rem(-2px);
+$ls-1: m.px-to-rem(-1px);
+$ls-05: m.px-to-rem(-0.5px);
