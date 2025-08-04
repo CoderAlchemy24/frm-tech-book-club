@@ -13,7 +13,6 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
   - [What I learned](#what-i-learned)
   - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -26,7 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./tech-book-club_screenshot.png)
-
 
 ### Links
 
@@ -43,9 +41,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-
 ### Author
 
 - Author - [coderalchemy24](https://github.com/CoderAlchemy24)
-
-

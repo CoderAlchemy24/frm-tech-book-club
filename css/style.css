@@ -236,10 +236,14 @@ body {
   margin: 0;
   padding: 1rem 1rem;
   width: 100%;
-  background-image: url("../assets/images/pattern-light-bg.svg"), url("../assets/images/pattern-glow.svg");
+  background-image:
+    url("../assets/images/pattern-light-bg.svg"),
+    url("../assets/images/pattern-glow.svg");
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
-  background-position: center, top left;
+  background-position:
+    center,
+    top left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,12 +398,17 @@ body {
   line-height: 130%;
   letter-spacing: -0.0625rem;
 }
-.section5__membership-card:hover, .section5__membership-card:focus {
+.section5__membership-card:hover,
+.section5__membership-card:focus {
   background-color: whitesmoke;
-  background-image: url("../assets/images/pattern-light-bg.svg"), url("../assets/images/pattern-glow.svg");
+  background-image:
+    url("../assets/images/pattern-light-bg.svg"),
+    url("../assets/images/pattern-glow.svg");
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
-  background-position: center, top left;
+  background-position:
+    center,
+    top left;
   cursor: pointer;
 }
 .section5__cta-btn:hover {

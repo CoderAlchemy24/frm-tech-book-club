@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0 auto;
   padding: 0;
@@ -117,7 +116,7 @@ body {
 
     &__stars {
       @include m.flex(row, center, center, m.px-to-rem(4px));
-      flex-wrap: no-wrap;
+      flex-wrap: nowrap;
     }
     &p {
       @include m.font(
@@ -199,6 +198,7 @@ body {
       padding-right: m.px-to-rem(32px);
       padding-left: m.px-to-rem(-2px);
       padding-bottom: m.px-to-rem(8px);
+      padding-top: m.px-to-rem(8px);
       background-image: url("../assets/images/pattern-circle.png");
       background-size: cover;
       background-repeat: no-repeat;
@@ -486,12 +486,19 @@ body {
 
     &:hover {
       cursor: pointer;
-      background: linear-gradient(45deg, v.$color-neutral-700 20%, v.$color-neutral-200 100%);
-     
+      background: linear-gradient(
+        45deg,
+        v.$color-neutral-700 20%,
+        v.$color-neutral-200 100%
+      );
     }
     &:focus {
       cursor: pointer;
-      background: linear-gradient(45deg, v.$color-neutral-700 20%, v.$color-neutral-200 100%);;
+      background: linear-gradient(
+        45deg,
+        v.$color-neutral-700 20%,
+        v.$color-neutral-200 100%
+      );
       outline: 2px solid white;
       outline-offset: 2px;
     }
@@ -518,7 +525,7 @@ body {
 
     &__stars {
       @include m.flex(row, center, center, m.px-to-rem(4px));
-      flex-wrap: no-wrap;
+      flex-wrap: nowrap;
     }
     &p {
       @include m.font(
