@@ -195,10 +195,12 @@ body {
     );
 
     span {
-      padding-right: m.px-to-rem(32px);
-      padding-left: m.px-to-rem(-2px);
-      padding-bottom: m.px-to-rem(8px);
       padding-top: m.px-to-rem(8px);
+      padding-right: m.px-to-rem(32px);
+      padding-bottom: m.px-to-rem(8px);
+      padding-left: m.px-to-rem(-2px);
+    
+      
       background-image: url("../assets/images/pattern-circle.png");
       background-size: cover;
       background-repeat: no-repeat;

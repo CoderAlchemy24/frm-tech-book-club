@@ -203,10 +203,10 @@ body {
   letter-spacing: -0.125rem;
 }
 .section3__title span {
-  padding-right: 2rem;
-  padding-left: -0.125rem;
-  padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: -0.125rem;
   background-image: url("../assets/images/pattern-circle.png");
   background-size: cover;
   background-repeat: no-repeat;
