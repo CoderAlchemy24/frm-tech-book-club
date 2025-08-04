@@ -22,7 +22,7 @@ body {
   gap: 0;
   background-image: url("../assets/images/pattern-light-bg.svg");
   background-color: #e6e5e3;
-  padding: 1.5rem 1rem 4rem;
+  padding: 1.5rem 1rem 4rem 1rem;
 }
 .section1__logo {
   width: auto;
@@ -34,7 +34,7 @@ body {
   width: 100%;
   margin: 3rem 0 1.5rem;
   padding: 0;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.375rem;
   line-height: 120%;
@@ -49,7 +49,7 @@ body {
   width: 100%;
   margin: 0;
   padding-right: 1rem;
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -64,7 +64,7 @@ body {
   background-color: #fff5ef;
   color: #062630;
   text-transform: uppercase;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   line-height: 130%;
@@ -87,14 +87,9 @@ body {
   cursor: pointer;
   background: linear-gradient(90deg, #fea36f 0%, #fff5ef 100%);
   outline: 2px solid #385159;
-  outline-offset: 2px;
+  outline-offset: 0.125rem;
 }
 .section1__rating-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
   height: auto;
   width: 100%;
   position: relative;
@@ -122,10 +117,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
 }
 .section1__rating-contentp {
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 120%;
@@ -150,7 +145,7 @@ body {
 .section2__title {
   width: 80%;
   margin-bottom: 1.5rem;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 130%;
@@ -164,7 +159,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 0;
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -201,7 +196,7 @@ body {
 .section3__title {
   width: 90%;
   margin-bottom: 1.5rem;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 130%;
@@ -211,6 +206,7 @@ body {
   padding-right: 2rem;
   padding-left: -0.125rem;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   background-image: url("../assets/images/pattern-circle.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,7 +215,7 @@ body {
 .section3__p {
   width: 90%;
   color: #385159;
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -236,14 +232,10 @@ body {
   margin: 0;
   padding: 1rem 1rem;
   width: 100%;
-  background-image:
-    url("../assets/images/pattern-light-bg.svg"),
-    url("../assets/images/pattern-glow.svg");
+  background-image: url("../assets/images/pattern-light-bg.svg"), url("../assets/images/pattern-glow.svg");
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
-  background-position:
-    center,
-    top left;
+  background-position: center, top left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,7 +245,7 @@ body {
 .section4__title {
   width: 90%;
   margin-bottom: 1.5rem;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 130%;
@@ -275,7 +267,7 @@ body {
   padding-bottom: 1.25rem;
 }
 .section4__list-item-row1 p {
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 130%;
@@ -289,7 +281,7 @@ body {
   width: auto;
 }
 .section4__list-item-p {
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 130%;
@@ -309,7 +301,7 @@ body {
 .section5__title {
   width: 90%;
   margin: 2rem auto 0;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 130%;
@@ -336,7 +328,7 @@ body {
 }
 .section5__membership-card h3 {
   width: 100%;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 110%;
@@ -345,7 +337,7 @@ body {
 }
 .section5__membership-card h4 {
   width: 100%;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 2.125rem;
   line-height: 130%;
@@ -354,7 +346,7 @@ body {
   margin-bottom: 1.5rem;
 }
 .section5__membership-card .price-span {
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -368,7 +360,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding-left: 0.125rem;
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -392,23 +384,18 @@ body {
   background-color: #fff5ef;
   color: #062630;
   text-transform: uppercase;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   line-height: 130%;
   letter-spacing: -0.0625rem;
 }
-.section5__membership-card:hover,
-.section5__membership-card:focus {
+.section5__membership-card:hover, .section5__membership-card:focus {
   background-color: whitesmoke;
-  background-image:
-    url("../assets/images/pattern-light-bg.svg"),
-    url("../assets/images/pattern-glow.svg");
+  background-image: url("../assets/images/pattern-light-bg.svg"), url("../assets/images/pattern-glow.svg");
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
-  background-position:
-    center,
-    top left;
+  background-position: center, top left;
   cursor: pointer;
 }
 .section5__cta-btn:hover {
@@ -419,7 +406,7 @@ body {
   cursor: pointer;
   background: linear-gradient(90deg, #fea36f 0%, #fff5ef 100%);
   outline: 2px solid #385159;
-  outline-offset: 2px;
+  outline-offset: 0.125rem;
 }
 
 .section6 {
@@ -433,7 +420,7 @@ body {
   gap: 2rem;
 }
 .section6__text {
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 110%;
@@ -441,7 +428,7 @@ body {
   width: 88%;
 }
 .section6__p {
-  font-family: "Inter", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 140%;
@@ -464,7 +451,7 @@ body {
 .section7__title {
   width: 90%;
   margin-bottom: 1.5rem;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 130%;
@@ -481,7 +468,7 @@ body {
   background-color: #062630;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   line-height: 130%;
@@ -504,7 +491,7 @@ body {
   cursor: pointer;
   background: linear-gradient(45deg, #385159 20%, #e6e1df 100%);
   outline: 2px solid white;
-  outline-offset: 2px;
+  outline-offset: 0.125rem;
 }
 .section7__content {
   display: flex;
@@ -533,10 +520,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
 }
 .section7__contentp {
-  font-family: "Martian Mono", sans-serif, sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 120%;
@@ -575,14 +562,14 @@ body {
     gap: 0;
   }
   .section1__title {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 120%;
     letter-spacing: -0.125rem;
   }
   .section1__button {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 130%;
@@ -596,7 +583,7 @@ body {
     gap: 2.125rem;
   }
   .section2__title {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 130%;
@@ -618,7 +605,7 @@ body {
     margin-top: 5rem;
   }
   .section3__title {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 130%;
@@ -626,7 +613,7 @@ body {
     margin-top: 0;
   }
   .section4__title {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 130%;
@@ -636,7 +623,7 @@ body {
     margin-top: 5rem;
   }
   .section5__title {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 130%;
@@ -654,21 +641,21 @@ body {
     width: auto;
   }
   .section5__membership-card h3 {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 110%;
     letter-spacing: -0.0625rem;
   }
   .section5__membership-card h4 {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 600;
     font-size: 2.125rem;
     line-height: 110%;
     letter-spacing: -0.0625rem;
   }
   .section6__text {
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 600;
     font-size: 2.125rem;
     line-height: 110%;
@@ -685,7 +672,7 @@ body {
     width: 70%;
     text-align: center;
     margin-bottom: 0rem;
-    font-family: "Martian Mono", sans-serif, sans-serif;
+    font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 130%;

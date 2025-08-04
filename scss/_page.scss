@@ -22,7 +22,7 @@ body {
   @include m.flex(column, center, flex-start, 0);
   background-image: url("../assets/images/pattern-light-bg.svg");
   background-color: v.$color-neutral-100;
-  padding: m.px-to-rem(24px) m.px-to-rem(16px) m.px-to-rem(64px);
+  padding: m.px-to-rem(24px) m.px-to-rem(16px) m.px-to-rem(64px) m.px-to-rem(16px);
 
   &__logo {
     width: auto;
@@ -90,11 +90,11 @@ body {
     cursor: pointer;
     background: v.$gradient;
     outline: 2px solid v.$color-neutral-700;
-    outline-offset: 2px;
+    outline-offset: 0.125rem;
   }
 
   &__rating-content {
-    @include m.flex(row, center, center, m.px-to-rem(24px));
+    
     height: auto;
     width: 100%;
     position: relative;
@@ -411,7 +411,7 @@ body {
     cursor: pointer;
     background: v.$gradient;
     outline: 2px solid v.$color-neutral-700;
-    outline-offset: 2px;
+    outline-offset: 0.125rem;
   }
 }
 .section6 {
@@ -500,7 +500,7 @@ body {
         v.$color-neutral-200 100%
       );
       outline: 2px solid white;
-      outline-offset: 2px;
+      outline-offset: 0.125rem;
     }
   }
 
